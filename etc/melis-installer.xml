@@ -10,25 +10,29 @@
 		</mp_description>
 		<mp_packagist_url>https://packagist.org/packages/melisplatform/melis-installer</mp_packagist_url>
 		<mp_repository>https://github.com/melisplatform/melis-installer</mp_repository>
-		<mp_total_downloads>1</mp_total_downloads>
-		<mp_type_id>0</mp_type_id>
 		<mp_is_active>1</mp_is_active>
 		<mp_dependencies>[]</mp_dependencies>
 		<mp_version>v2.3.12</mp_version>
-		<mp_time_of_release>""</mp_time_of_release>
 		<mp_maintainers>melisplatform</mp_maintainers>
 		<mp_group_id>1</mp_group_id>
 	</package_info>
+	<!--
+		Package Images
+		include_image - specify whether the image is included on insertion, specially when you only want to update the text like description or title
+						just set this to false so that the image will not be re-inserted again
+	-->
 	<package_images>
 		<img_1>
 			<mpi_image_title>Img title 1</mpi_image_title>
 			<mpi_image_file>img_test.jpg</mpi_image_file>
 			<mpi_image_main>1</mpi_image_main>
+			<include_image>true</include_image>
 		</img_1>
 		<img_2>
 			<mpi_image_title>Img title 2</mpi_image_title>
 			<mpi_image_file>img_test.jpg</mpi_image_file>
 			<mpi_image_main>1</mpi_image_main>
+			<include_image>true</include_image>
 		</img_2>
 	</package_images>
 </market-installer>
