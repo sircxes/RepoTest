@@ -1,6 +1,6 @@
 <market-installer>
 	<package_info>
-		<mp_title>Melis MarketPlace</mp_title>
+		<mp_title>Melis Installer</mp_title>
 		<mp_package_name>melisplatform/melis-installer</mp_package_name>
 		<mp_subtitle>The module that is used to install Melis Platform.</mp_subtitle>
 		<mp_description>
@@ -13,7 +13,7 @@
 		<mp_total_downloads>1</mp_total_downloads>
 		<mp_type_id>0</mp_type_id>
 		<mp_is_active>1</mp_is_active>
-		<mp_dependencies>["melis-core","melis-engine","melis-front","melis-cms"]</mp_dependencies>
+		<mp_dependencies>[]</mp_dependencies>
 		<mp_version>v2.3.12</mp_version>
 		<mp_time_of_release>""</mp_time_of_release>
 		<mp_maintainers>melisplatform</mp_maintainers>
