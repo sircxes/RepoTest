@@ -26,13 +26,13 @@
 			<mpi_image_title>Img title 1</mpi_image_title>
 			<mpi_image_file>img_test.jpg</mpi_image_file>
 			<mpi_image_main>1</mpi_image_main>
-			<include_image>true</include_image>
+			<include_image>1</include_image>
 		</img_1>
 		<img_2>
 			<mpi_image_title>Img title 2</mpi_image_title>
 			<mpi_image_file>img_test.jpg</mpi_image_file>
 			<mpi_image_main>1</mpi_image_main>
-			<include_image>false</include_image>
+			<include_image>0</include_image>
 		</img_2>
 	</package_images>
 </market-installer>
