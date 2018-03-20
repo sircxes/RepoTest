@@ -1,32 +1,32 @@
-<market-installer>
+<melis-installer>
 	<package_info>
-		<mp_title>Melis Installer</mp_title>
-		<mp_package_name>melisplatform/melis-installer</mp_package_name>
-		<mp_subtitle>The module that is used to install Melis Platform.</mp_subtitle>
-		<mp_description>
+		<mp_title>Melis Installer</mp_title><!--Package Title-->
+		<mp_package_name>melisplatform/melis-installer</mp_package_name><!--Package Name-->
+		<mp_subtitle>The module that is used to install Melis Platform.</mp_subtitle><!--Package Sub Title-->
+		<mp_description><!--Package Description-->
 			This module is the setup that is run when installing the platform.<br />
 			It will help installing the platform and the demo website, a new project, or an empty platform.<br />
 			During install, the DB will be set up, as long as all selected modules from Melis Platform Community Edition.
 		</mp_description>
-		<mp_packagist_url>https://packagist.org/packages/melisplatform/melis-installer</mp_packagist_url>
-		<mp_repository>https://github.com/melisplatform/melis-installer</mp_repository>
-		<mp_is_active>1</mp_is_active>
-		<mp_dependencies>[]</mp_dependencies>
-		<mp_version>v2.3.13</mp_version>
-		<mp_maintainers>melisplatform</mp_maintainers>
-		<mp_group_id>1</mp_group_id>
+		<mp_packagist_url>https://packagist.org/packages/melisplatform/melis-installer</mp_packagist_url><!--Package Url-->
+		<mp_repository>https://github.com/melisplatform/melis-installer</mp_repository><!--Package Repository-->
+		<mp_is_active>1</mp_is_active><!--Package Is Active-->
+		<mp_dependencies>[]</mp_dependencies><!--Package Dependencies-->
+		<mp_version>v2.3.13</mp_version><!--Package Version-->
+		<mp_maintainers>melisplatform</mp_maintainers><!--Package Maintainer-->
+		<mp_group_id>1</mp_group_id><!--Package Group Id(Category Id)-->
 	</package_info>
 	<!--
 		Package Images
 		include_image - specify whether the image is included on insertion, specially when you only want to update the text like description or title
-						just set this to false so that the image will not be re-inserted again
+						just set this to 0 so that the image will not be re-inserted again
 	-->
 	<package_images>
 		<img_1>
-			<mpi_image_title>Img title 1</mpi_image_title>
-			<mpi_image_file>img_test.jpg</mpi_image_file>
-			<mpi_image_main>1</mpi_image_main>
-			<include_image>1</include_image>
+			<mpi_image_title>Img title 1</mpi_image_title><!--Image Title-->
+			<mpi_image_file>img_test.jpg</mpi_image_file><!--Image File Name-->
+			<mpi_image_main>1</mpi_image_main><!--Image Is Main-->
+			<include_image>1</include_image><!--Image is included-->
 		</img_1>
 		<img_2>
 			<mpi_image_title>Img title 2</mpi_image_title>
@@ -35,4 +35,4 @@
 			<include_image>0</include_image>
 		</img_2>
 	</package_images>
-</market-installer>
+</melis-installer>
