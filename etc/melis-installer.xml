@@ -12,7 +12,7 @@
 		<mp_repository>https://github.com/melisplatform/melis-installer</mp_repository>
 		<mp_is_active>1</mp_is_active>
 		<mp_dependencies>[]</mp_dependencies>
-		<mp_version>v2.3.12</mp_version>
+		<mp_version>v2.3.13</mp_version>
 		<mp_maintainers>melisplatform</mp_maintainers>
 		<mp_group_id>1</mp_group_id>
 	</package_info>
