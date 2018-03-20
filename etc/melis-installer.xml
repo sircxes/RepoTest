@@ -1,0 +1,34 @@
+<market-installer>
+	<package_info>
+		<mp_title>Melis MarketPlace</mp_title>
+		<mp_package_name>melisplatform/melis-installer</mp_package_name>
+		<mp_subtitle>The module that is used to install Melis Platform.</mp_subtitle>
+		<mp_description>
+			This module is the setup that is run when installing the platform.<br />
+			It will help installing the platform and the demo website, a new project, or an empty platform.<br />
+			During install, the DB will be set up, as long as all selected modules from Melis Platform Community Edition.
+		</mp_description>
+		<mp_packagist_url>https://packagist.org/packages/melisplatform/melis-installer</mp_packagist_url>
+		<mp_repository>https://github.com/melisplatform/melis-installer</mp_repository>
+		<mp_total_downloads>1</mp_total_downloads>
+		<mp_type_id>0</mp_type_id>
+		<mp_is_active>1</mp_is_active>
+		<mp_dependencies>["melis-core","melis-engine","melis-front","melis-cms"]</mp_dependencies>
+		<mp_version>v2.3.12</mp_version>
+		<mp_time_of_release>""</mp_time_of_release>
+		<mp_maintainers>melisplatform</mp_maintainers>
+		<mp_group_id>1</mp_group_id>
+	</package_info>
+	<package_images>
+		<img_1>
+			<mpi_image_title>Img title 1</mpi_image_title>
+			<mpi_image_file>C:\Users\cmaka\Desktop\market-installer.xml</mpi_image_file>
+			<mpi_image_main>0</mpi_image_main>
+		</img_1>
+		<img_2>
+			<mpi_image_title>Img title 1</mpi_image_title>
+			<mpi_image_file>C:\Users\cmaka\Desktop\market-installer.xml</mpi_image_file>
+			<mpi_image_main>0</mpi_image_main>
+		</img_2>
+	</package_images>
+</market-installer>
