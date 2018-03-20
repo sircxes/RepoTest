@@ -32,7 +32,7 @@
 			<mpi_image_title>Img title 2</mpi_image_title>
 			<mpi_image_file>img_test.jpg</mpi_image_file>
 			<mpi_image_main>1</mpi_image_main>
-			<include_image>true</include_image>
+			<include_image>false</include_image>
 		</img_2>
 	</package_images>
 </market-installer>
