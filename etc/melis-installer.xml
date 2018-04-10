@@ -8,12 +8,7 @@
 			It will help installing the platform and the demo website, a new project, or an empty platform.<br />
 			During install, the DB will be set up, as long as all selected modules from Melis Platform Community Edition.
 		</mp_description>
-		<mp_packagist_url>https://packagist.org/packages/melisplatform/melis-installer</mp_packagist_url><!--Package Url-->
-		<mp_repository>https://github.com/melisplatform/melis-installer</mp_repository><!--Package Repository-->
 		<mp_is_active>1</mp_is_active><!--Package Is Active-->
-		<mp_dependencies>[]</mp_dependencies><!--Package Dependencies-->
-		<mp_version>v2.3.13</mp_version><!--Package Version-->
-		<mp_maintainers>melisplatform</mp_maintainers><!--Package Maintainer-->
 		<mp_group_id>1</mp_group_id><!--Package Group Id(Category Id)-->
 	</package_info>
 	<!--
@@ -26,7 +21,7 @@
 			<mpi_image_title>Img title 1</mpi_image_title><!--Image Title-->
 			<mpi_image_file>img_test.jpg</mpi_image_file><!--Image File Name-->
 			<mpi_image_main>1</mpi_image_main><!--Image Is Main-->
-			<include_image>1</include_image><!--Image is included-->
+			<include_image>0</include_image><!--Image is included-->
 		</img_1>
 		<img_2>
 			<mpi_image_title>Img title 2</mpi_image_title>
