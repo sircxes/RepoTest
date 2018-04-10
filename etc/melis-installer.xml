@@ -10,6 +10,7 @@
 		</mp_description>
 		<mp_is_active>1</mp_is_active><!--Package Is Active-->
 		<mp_group_id>1</mp_group_id><!--Package Group Id(Category Id)-->
+		<mp_version>v3.3.14</mp_version><!--Package Version-->
 	</package_info>
 	<!--
 		Package Images
