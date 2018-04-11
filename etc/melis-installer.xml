@@ -1,41 +1,32 @@
 <market-installer>
 	<package_info>
 		<mp_title>Melis MarketPlace</mp_title>
-		<mp_package_name>melisplatform/melis-installer</mp_package_name>
 		<mp_subtitle>The module that is used to install Melis Platform.</mp_subtitle>
 		<mp_description>
 			This module is the setup that is run when installing the platform.<br />
 			It will help installing the platform and the demo website, a new project, or an empty platform.<br />
 			During install, the DB will be set up, as long as all selected modules from Melis Platform Community Edition.
 		</mp_description>
-		<mp_packagist_url>https://packagist.org/packages/melisplatform/melis-installer</mp_packagist_url>
-		<mp_repository>https://github.com/melisplatform/melis-installer</mp_repository>
-		<mp_total_downloads>1</mp_total_downloads>
-		<mp_type_id>0</mp_type_id>
-		<mp_is_active>1</mp_is_active>
-		<mp_dependencies>[]</mp_dependencies>
-		<mp_version>v2.3.14</mp_version>
-		<mp_time_of_release>2017-05-16T06:31:49+00:00</mp_time_of_release>
 		<mp_maintainers>melisplatform</mp_maintainers>
-		<mp_group_id>1</mp_group_id>
+		<mp_group_id>Melis Core</mp_group_id>
 	</package_info>
 	<!--
 		Package Images
-		include_image - specify whether the image is included on insertion, specially when you only want to update the text like description or title
-						just set this to 0 so that the image will not be re-inserted again
+		
+		include_image - specify whether the image is included on insertion, specially when you only want to update the text 
+		like description or title, just set this to 0 so that the image will not be re-inserted again, but if there is new image
+		need to be insert, just set the value to 1 and it will be inserted.
 	-->
 	<package_images>
 		<img_1>
 			<mpi_image_title>Img title 1</mpi_image_title>
-			<mpi_image_file>img1_test.jpg</mpi_image_file>
+			<mpi_image_file>img1_test.jpg</mpi_image_file><!-- just the file name of the image inside img folder -->
 			<mpi_image_main>0</mpi_image_main>
-			<include_image>0</include_image>
 		</img_1>
 		<img_2>
 			<mpi_image_title>Img title 2</mpi_image_title>
 			<mpi_image_file>img2_test.jpg</mpi_image_file>
 			<mpi_image_main>0</mpi_image_main>
-			<include_image>0</include_image>
 		</img_2>
 	</package_images>
 </market-installer>
