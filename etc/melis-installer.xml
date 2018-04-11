@@ -8,7 +8,7 @@
 			During install, the DB will be set up, as long as all selected modules from Melis Platform Community Edition.
 		</mp_description>
 		<mp_maintainers>melisplatform</mp_maintainers>
-		<mp_group_id>Melis Core</mp_group_id>
+		<mp_group>Melis Core</mp_group>
 	</package_info>
 	<!--
 		Package Images
