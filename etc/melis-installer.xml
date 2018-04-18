@@ -18,10 +18,9 @@
 		need to be insert, just set the value to 1 and it will be inserted.
 	-->
 	<package_images>
-		<!--
 		<img_1>
 			<mpi_image_title>Img title 1</mpi_image_title>
-			<mpi_image_file>img1_test.jpg</mpi_image_file>
+			<mpi_image_file>img_test.jpg</mpi_image_file>
 			<mpi_image_main>0</mpi_image_main>
 		</img_1>
 		<img_2>
@@ -29,6 +28,5 @@
 			<mpi_image_file>img2_test.jpg</mpi_image_file>
 			<mpi_image_main>0</mpi_image_main>
 		</img_2>
-		-->
 	</package_images>
 </market-installer>
