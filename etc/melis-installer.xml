@@ -21,7 +21,7 @@
 		<img_1>
 			<mpi_image_title>Img title 1</mpi_image_title>
 			<mpi_image_file>img_test.jpg</mpi_image_file>
-			<mpi_image_main>0</mpi_image_main>
+			<mpi_image_main>1</mpi_image_main>
 		</img_1>
 		<img_2>
 			<mpi_image_title>Img title 2</mpi_image_title>
